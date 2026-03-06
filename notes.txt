@@ -1,0 +1,27 @@
+1. initailize project using spring initializr
+2. setup db and create application.yml
+3. in application.yml add a section,
+    jpa = (java persistence api)
+    jpa = rules to be followed by spring
+    hibernate = engine that follows the rules
+    syntax : jpa :
+                hibernate :
+                    ...
+4. create layered structure
+5. create model i.e. entity
+6. create repositories
+7. create dto (never expose entity directly)
+8. create service i.e. createNotification() etc
+9. create controller
+
+
+
+
+application.yml basically looks like this :
+
+older version : spring.db.url = ""
+                spring.db.password = ""
+
+newer version : spring:
+                    db:
+                        url = ""
