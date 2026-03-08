@@ -1,6 +1,10 @@
 spring:
+
+  jackson:
+    time-zone: Asia/Kolkata
+
   datasource:
-    url: jdbc:postgresql://localhost:5432/notification_db?options=-c%20TimeZone=Asia/Kolkata
+    url: jdbc:postgresql://localhost:5432/notification_db
     username: postgres
     password: postgres
     driver-class-name: org.postgresql.Driver
